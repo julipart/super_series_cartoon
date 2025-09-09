@@ -1,0 +1,114 @@
+
+       <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Increíble Mundo de Gumball</title>
+    <link rel="stylesheet" href="css/NAVBAR.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .grid {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .section-content {
+            background-color: white;
+            padding: 20px 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section-content h1 {
+            margin-top: 0;
+        }
+        .section-content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 400px;
+            background-color: #f5f5f5;
+            padding: 45px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        form h2 {
+            font-size: 35px;
+            margin-bottom: 35px;
+            color: #404040;
+        }
+        input {
+            background-color: #f1f1f1;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-radius: 25px;
+            color: #404040;
+            outline: none;
+            font-size: 16px;
+        }
+        .btn {
+            background-color: #3ea0e9;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #42a8f6;
+        }
+
+        @media(max-width: 991px){
+            body{
+                padding: 30px;
+            }
+            form{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="nav-enlace">Página Principal</a>
+        <a href="pagina2.html" class="nav-enlace">Un Show Más</a>
+        <a href="pagina3.html" class="nav-enlace">Hora De Aventuras</a>
+        <a href="pagina4.html" class="nav-enlace">El Increíble Mundo De Gumball</a>
+        <a href="pagina5.html" class="nav-enlace">Clarence</a>
+        <a href="pagina6.html" class="nav-enlace">Gravity Falls</a>
+        <a href="pagina7.html" class="nav-enlace">Contacto</a>
+    </nav>
+    <div class="contenedor">
+        <form>
+            <h2>BIENVENIDO</h2>
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Apellido">
+            <input type="text" placeholder="Dirección">
+            <input type="email" placeholder="Correo">
+            <input class="btn" type="submit" value="Enviar">
+        </form>
+    </div>
+
+</body>
+</html>
